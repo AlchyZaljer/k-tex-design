@@ -1,0 +1,11 @@
+<picture>
+  <source
+    type="image/avif"
+    srcset="{{path}}{{base}}_{{avif1}}.avif 1x, {{path}}{{base}}_{{avif2}}.avif 2x"
+    {{#if sizes}} {{sizes}}{{/if}}>
+  <img
+    src="{{path}}{{base}}.jpg"
+    {{#if params}} {{{params}}}{{/if}}
+    loading="lazy"
+    alt="{{alt}}">
+</picture>

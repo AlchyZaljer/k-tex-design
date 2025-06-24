@@ -1,0 +1,25 @@
+<div class="menu-overlay">
+  <nav class="verticalMenu">
+    <ul class="menu-body">
+      {{#each menu}}
+        <li>
+          <a data-scroll href="#{{id}}">{{label}}</a>
+        </li>
+      {{/each}}
+    </ul>
+    <div class="menu-footer">
+      <div class="phone">
+        <a href="tel:{{contacts.phone.href}}">{{contacts.phone.text}}</a>
+      </div>
+      <div class="socials">
+        {{#each contacts.socials}}
+          <div class="social-icon">
+            <a class="social-link {{type}}" href="{{href}}" target="_blank" rel="noopener noreferrer">
+              <img src="{{icon}}" alt="{{type}}" />
+            </a>
+          </div>
+        {{/each}}
+      </div>
+    </div>
+  </nav>
+</div>

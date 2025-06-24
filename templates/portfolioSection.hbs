@@ -1,0 +1,33 @@
+<section id="portfolio">
+  {{> sectionHeader title="Портфолио"}}
+
+  <div class="gallery">
+    {{#each portfolio}}
+      <div class="project {{orientation}} project_{{group}}">
+        {{> pictureBlock
+          path="/imgs/portfolio/"
+          base=img.base
+          avif1="550"
+          avif2="1100"
+          sizes=""
+          params="class=\"has-transition\""
+          alt=img.alt
+        }}
+        <div class="project-overlay">
+          <div class="container">
+            <div class="description">
+              {{{description}}}
+            </div>
+          </div>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+
+  <div class="wrapper">
+    <div class="btn-container gallery-btn">
+      <button class="btn">Показать еще</button>
+    </div>
+  </div>
+
+</section>

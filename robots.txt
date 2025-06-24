@@ -1,0 +1,3 @@
+User-agent: * Allow: /js/
+
+Sitemap: https://ktexdesign.ru/sitemap.xml

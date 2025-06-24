@@ -1,0 +1,50 @@
+<section id="stages">
+  {{> sectionHeader title="Этапы работы"}}
+
+  <div class="wrapper">
+    <div class="stages-grid">
+      {{#each stages}}
+        <div class="stage">
+          <div class="container has-transition">
+
+            <div class="stage-img landscape">
+              {{> pictureBlock
+                path="/imgs/stages/"
+                base=this.base
+                avif1="100"
+                avif2="200"
+                sizes="sizes=\"100px\""
+                params=""
+                alt=this.alt
+              }}
+            </div>
+
+            <div class="stage-table">
+              <div class="stage-head">
+                <div class="number">{{number}}</div>
+                <div class="title">{{title}}</div>
+              </div>
+
+              <div class="stage-img portrait">
+                {{> pictureBlock
+                    path="/imgs/stages/"
+                    base=this.base
+                    avif1="100"
+                    avif2="200"
+                    sizes="sizes=\"100px\""
+                    params=""
+                    alt=this.alt
+                }}
+              </div>
+
+              <div class="stage-body">
+                <p>{{{description}}}</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      {{/each}}
+    </div>
+  </div>
+</section>

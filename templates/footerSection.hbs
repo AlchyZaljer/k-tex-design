@@ -1,0 +1,31 @@
+<footer>
+  <div class="footer-left">
+    <div class="logo">
+      <a data-scroll href="#head">
+        <img src="{{logo.src}}" alt="{{logo.alt}}">
+      </a>
+    </div>
+    <div class="copyright">
+      <p>&copy;&nbsp;<span id="current-year"></span> Все права защищены</p>
+    </div>
+  </div>
+
+  <div class="footer-center">
+    {{#each socials}}
+      <div class="social-icon">
+        <a class="social-link {{type}}" href="{{href}}" target="_blank" rel="noopener noreferrer">
+          <img src="{{icon}}" alt="{{type}}">
+        </a>
+      </div>
+    {{/each}}
+  </div>
+
+  <div class="footer-right">
+    <div class="title"><p>{{business.name}}</p></div>
+    <div class="description">
+      {{#each business.details}}
+        <p>{{this}}</p>
+      {{/each}}
+    </div>
+  </div>
+</footer>

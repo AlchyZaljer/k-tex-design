@@ -1,0 +1,363 @@
+{
+    "menu": [
+        {
+            "id": "services",
+            "label": "Услуги"
+        },
+        {
+            "id": "stages",
+            "label": "Этапы работы"
+        },
+        {
+            "id": "about",
+            "label": "О бюро"
+        },
+        {
+            "id": "textile",
+            "label": "Текстиль"
+        },
+        {
+            "id": "portfolio",
+            "label": "Портфолио"
+        },
+        {
+            "id": "contacts",
+            "label": "Контакты"
+        }
+    ],
+    "services": [
+        {
+            "number": "01",
+            "title": "Окна под ключ",
+            "description": "Оформление окон «под ключ»: от замера до монтажа готовых изделий. Изготовление штор любой сложности."
+        },
+        {
+            "number": "02",
+            "title": "Карнизные системы",
+            "description": "Заказ по индивидуальным размерам карнизов, в том числе с электроприводом, с их последующим монтажом."
+        },
+        {
+            "number": "03",
+            "title": "Защита от солница",
+            "description": "Заказ солнцезащитных систем по индивидуальным размерам (жалюзи, рулонные шторы, плиссе)."
+        },
+        {
+            "number": "04",
+            "title": "Декорирование",
+            "description": "Консультации по декорированию и заполнению интерьера текстилем (покрывала, подушки, скатерти и т.п.)."
+        }
+    ],
+    "stages": [
+        {
+            "base": "01_meeting",
+            "number": "01",
+            "title": "Знакомство",
+            "alt": "Знакомство",
+            "description": "Первичная консультация по телефону, определение количества объектов и направления работы."
+        },
+        {
+            "base": "02_measurements",
+            "number": "02",
+            "title": "Замеры",
+            "alt": "Замеры",
+            "description": "Выезд на объект с каталогами и образцами под ваш интерьер (от 3000₽). Обсуждение всех нюансов, в том числе бюджета проекта."
+        },
+        {
+            "base": "03_fabrics",
+            "number": "03",
+            "title": "Подбор тканей",
+            "alt": "Подбор тканей",
+            "description": "Подбор тканей, которые подходят именно к вашему интерьеру. Утверждение цветов и фасонов штор, тканей и карнизов."
+        },
+        {
+            "base": "04_visualization",
+            "number": "04",
+            "title": "3D визуализация",
+            "alt": "3D визуализация",
+            "description": "Подготовка <a class=\"link\" target=\"_blank\" href=\"https://vk.com/album-225174876_304040647\">3D визуализации</a> для наглядного представления о том, как будет выглядеть готовый проект в вашем интерьере."
+        },
+        {
+            "base": "05_project",
+            "number": "05",
+            "title": "Проект, смета",
+            "alt": "Проект, смета",
+            "description": "Составление сметы по вашему проекту и спецификации с подробным описанием всех выбранных материалов и последующих работ."
+        },
+        {
+            "base": "06_contract",
+            "number": "06",
+            "title": "Договор",
+            "alt": "Договор",
+            "description": "Заключение договора, выставление счета на предоплату (100% стоимости всех заказанных позиций), поступление заказа в работу после предоплаты."
+        },
+        {
+            "base": "07_making",
+            "number": "07",
+            "title": "Изготовление",
+            "alt": "Изготовление",
+            "description": "Срок изготовления от 2х до 3х недель. При выборе тканей под заказ срок может увеличиться до 4х — 6ти недель."
+        },
+        {
+            "base": "08_hanging",
+            "number": "08",
+            "title": "Монтаж, навеска",
+            "alt": "Монтаж, навеска",
+            "description": "Доставка готовых изделий на объект с последующим монтажом карнизов, навеска штор."
+        }
+    ],
+    "about": {
+        "founder": {
+            "base": "founder",
+            "alt": "Irina Kostenko"
+        },
+        "tagline": "K.Tex.Design — текстильный дизайн, который говорит о вашем вкусе.",
+        "description": [
+            "Я, Ирина Костенко — создатель бюро текстильного дизайна K.Tex.Design.",
+            "Мои первые шаги в сфере дизайна были предприняты в далеком 1998 году. С тех пор я оформила много объектов: квартиры, коттеджи, офисы, рестораны и общественные помещения. Многолетняя практика стала фундаментом для создания моего собственного бюро в 2020 году.",
+            "В течение своего профессионального пути я имела удовольствие сотрудничать со многими архитекторами и дизайнерами интерьеров. Значимую часть проектов мы создали совместно с опытным дизайнером интерьеров Еленой Кисляковой <a class=\"link\" target=\"_blank\" href=\"https://kidesign.ru/\">(Студия интерьерного дизайна K.I.DESIGN)</a>.",
+            "В своей работе я, как художник по образованию, стремлюсь привносить эстетику и утонченность и подчеркивать индивидуальность интерьера, опираясь на пожелания заказчика.",
+            "Творческий подход в любом проекте я сочетаю с ответственным отношением к каждому этапу работы и вниманием к техническим аспектам, реализовывая текстильный дизайн любой сложности."
+        ],
+        "features": [
+            {
+                "value": "25+",
+                "meaning": "лет опыта в текстильном дизайне"
+            },
+            {
+                "value": ">200",
+                "meaning": "совместных проектов с архитекторами"
+            },
+            {
+                "value": "80%",
+                "meaning": "заказчиков приходят по рекомендации"
+            }
+        ]
+    },
+    "textile": {
+        "products": [
+            {
+                "title": "Гармония",
+                "properties": "50 × 50 см, шенил, Италия",
+                "details": "Комплект из 4-х подушек в строгом стиле из итальянского шенила с декоративной бахрамой. Доступен для покупки целиком или парами.",
+                "availability": "В наличии",
+                "img": {
+                    "base": "image_1",
+                    "alt": "Гармония"
+                }
+            },
+            {
+                "title": "Лазурь",
+                "properties": "50 × 50 см, шенил, Италия",
+                "details": "Набор из 4-х подушек из итальянского шенила, выполненный в глубоких благородных оттенках. Доступен для покупки целиком или парами.",
+                "availability": "В наличии",
+                "img": {
+                    "base": "image_2",
+                    "alt": "Лазурь"
+                }
+            }
+        ],
+        "videoEmbed": "<iframe src=\"https://vkvideo.ru/video_ext.php?oid=-225174876&amp;id=456239036&amp;hd=2\" width=\"560\" height=\"315\" allow=\"encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;\" frameborder=\"0\"></iframe>"
+    },
+    "portfolio": [
+        {
+            "group": 1,
+            "orientation": "vertical",
+            "img": {
+                "base": "project1_1",
+                "alt": "ЖК Триколор 1"
+            },
+            "description": "<p>Квартира 150 <span class=\"lower\">м</span><span class=\"higher\">2</span> в ЖК Триколор, г.&nbsp;Москва</p>"
+        },
+        {
+            "group": 1,
+            "orientation": "vertical",
+            "img": {
+                "base": "project1_2",
+                "alt": "ЖК Триколор 2"
+            },
+            "description": "<p>Квартира 150 <span class=\"lower\">м</span><span class=\"higher\">2</span> в ЖК Триколор, г.&nbsp;Москва</p>"
+        },
+        {
+            "group": 1,
+            "orientation": "vertical",
+            "img": {
+                "base": "project1_3",
+                "alt": "ЖК Триколор 3"
+            },
+            "description": "<p>Квартира 150 <span class=\"lower\">м</span><span class=\"higher\">2</span> в ЖК Триколор, г.&nbsp;Москва</p>"
+        },
+        {
+            "group": 1,
+            "orientation": "vertical",
+            "img": {
+                "base": "project1_4",
+                "alt": "ЖК Триколор 4"
+            },
+            "description": "<p>Квартира 150 <span class=\"lower\">м</span><span class=\"higher\">2</span> в ЖК Триколор, г.&nbsp;Москва</p>"
+        },
+        {
+            "group": 2,
+            "orientation": "vertical",
+            "img": {
+                "base": "project2_1",
+                "alt": "Квартира Одинцово 1"
+            },
+            "description": "<p>Квартира 170 <span class=\"lower\">м</span><span class=\"higher\">2</span>, г.&nbsp;Одинцово</p>"
+        },
+        {
+            "group": 2,
+            "orientation": "vertical",
+            "img": {
+                "base": "project2_2",
+                "alt": "Квартира Одинцово 2"
+            },
+            "description": "<p>Квартира 170 <span class=\"lower\">м</span><span class=\"higher\">2</span>, г.&nbsp;Одинцово</p>"
+        },
+        {
+            "group": 2,
+            "orientation": "vertical",
+            "img": {
+                "base": "project2_3",
+                "alt": "Квартира Одинцово 3"
+            },
+            "description": "<p>Квартира 170 <span class=\"lower\">м</span><span class=\"higher\">2</span>, г.&nbsp;Одинцово</p>"
+        },
+        {
+            "group": 2,
+            "orientation": "vertical",
+            "img": {
+                "base": "project2_4",
+                "alt": "Квартира Одинцово 4"
+            },
+            "description": "<p>Квартира 170 <span class=\"lower\">м</span><span class=\"higher\">2</span>, г.&nbsp;Одинцово</p>"
+        },
+        {
+            "group": 2,
+            "orientation": "horizontal",
+            "img": {
+                "base": "project2_5",
+                "alt": "Квартира Одинцово 5"
+            },
+            "description": "<p>Квартира 170 <span class=\"lower\">м</span><span class=\"higher\">2</span>, г.&nbsp;Одинцово</p>"
+        },
+        {
+            "group": 2,
+            "orientation": "horizontal",
+            "img": {
+                "base": "project2_6",
+                "alt": "Квартира Одинцово 6"
+            },
+            "description": "<p>Квартира 170 <span class=\"lower\">м</span><span class=\"higher\">2</span>, г.&nbsp;Одинцово</p>"
+        },
+        {
+            "group": 3,
+            "orientation": "vertical",
+            "img": {
+                "base": "project3_1",
+                "alt": "ЖК Новоясеневский 1"
+            },
+            "description": "<p>Квартира 200&nbsp;<span class=\"lower\">м</span><span class=\"higher\">2</span>в&nbsp;ЖК&nbsp;Новоясеневский, г.&nbsp;Москва</p>"
+        },
+        {
+            "group": 3,
+            "orientation": "vertical",
+            "img": {
+                "base": "project3_2",
+                "alt": "ЖК Новоясеневский 2"
+            },
+            "description": "<p>Квартира 200&nbsp;<span class=\"lower\">м</span><span class=\"higher\">2</span>в&nbsp;ЖК&nbsp;Новоясеневский, г.&nbsp;Москва</p>"
+        },
+        {
+            "group": 3,
+            "orientation": "vertical",
+            "img": {
+                "base": "project3_3",
+                "alt": "ЖК Новоясеневский 3"
+            },
+            "description": "<p>Квартира 200&nbsp;<span class=\"lower\">м</span><span class=\"higher\">2</span>в&nbsp;ЖК&nbsp;Новоясеневский, г.&nbsp;Москва</p>"
+        },
+        {
+            "group": 3,
+            "orientation": "vertical",
+            "img": {
+                "base": "project3_4",
+                "alt": "ЖК Новоясеневский 4"
+            },
+            "description": "<p>Квартира 200&nbsp;<span class=\"lower\">м</span><span class=\"higher\">2</span>в&nbsp;ЖК&nbsp;Новоясеневский, г.&nbsp;Москва</p>"
+        }
+    ],
+    "contacts": {
+        "phone": {
+            "href": "+79166085795",
+            "text": "+7 (916) 608 57 95"
+        },
+        "appForm": "https://aspiot.ru/webforms/722a3ac1-e207-11ee-9a00-54520002f520",
+        "socials": [
+            {
+                "type": "email",
+                "icon": "/imgs/svg/email.svg",
+                "href": "mailto:k.tex.design@gmail.com",
+                "text": "k.tex.design@gmail.com"
+            },
+            {
+                "type": "instagram",
+                "icon": "/imgs/svg/instagram.svg",
+                "href": "https://instagram.com/k.tex.design?igshid=YmMyMTA2M2Y=",
+                "text": "k.tex.design"
+            },
+            {
+                "type": "vkontakte",
+                "icon": "/imgs/svg/vkontakte.svg",
+                "href": "https://vk.com/ktexdesign",
+                "text": "K.Tex.Design"
+            },
+            {
+                "type": "youtube",
+                "icon": "/imgs/svg/youtube.svg",
+                "href": "https://www.youtube.com/@k.tex.design",
+                "text": "K.Tex.Design"
+            }
+        ],
+        "address": {
+            "icon": "/imgs/svg/address.svg",
+            "href": "https://yandex.ru/maps/-/CDF84-5F",
+            "text": "Московская Область, Одинцовский городской округ, деревня Бузаево, д. 73/1"
+        },
+        "mapEmbed": "<iframe src=\"https://yandex.ru/map-widget/v1/?um=constructor%3A644f0de982f41199a44d9b228d8c85868bc261df7a8e8f42217e36d3775e0a7d&amp;source=constructor\" width=\"600\" height=\"400\" frameborder=\"0\" sandbox=\"allow-scripts allow-same-origin\"></iframe>"
+    },
+    "footer": {
+        "logo": {
+            "src": "/imgs/png/KTD.png",
+            "alt": "KTD"
+        },
+        "socials": [
+            {
+                "type": "whatsapp",
+                "href": "https://api.whatsapp.com/send?phone=79166085795",
+                "icon": "/imgs/svg/whatsapp.svg"
+            },
+            {
+                "type": "instagram",
+                "href": "https://instagram.com/k.tex.design?igshid=YmMyMTA2M2Y=",
+                "icon": "/imgs/svg/instagram.svg"
+            },
+            {
+                "type": "vkontakte",
+                "href": "https://vk.com/ktexdesign",
+                "icon": "/imgs/svg/vkontakte.svg"
+            },
+            {
+                "type": "youtube",
+                "href": "https://www.youtube.com/@k.tex.design",
+                "icon": "/imgs/svg/youtube.svg"
+            }
+        ],
+        "business": {
+            "name": "ИП Костенко И.И.",
+            "details": [
+                "ИНН 773127403112",
+                "ОГРНИП 320774600031796"
+            ]
+        }
+    }
+}

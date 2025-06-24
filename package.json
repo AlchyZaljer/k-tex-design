@@ -1,0 +1,40 @@
+{
+  "name": "k-tex-design",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "copy:assets": "node copy-assets.js",
+    "build:static": "node build-static.js",
+    "optimize:imgs": "imagemin \"dist/imgs/**/*.{jpg,jpeg,png,svg,gif,avif}\" --out-dir=dist/imgs",
+    "minify:html": "html-minifier-terser dist/index.html -o dist/index.html --collapse-whitespace --remove-comments --remove-optional-tags --minify-css true --minify-js false",
+    "minify:css": "postcss \"css/**/*.css\" --base css --dir dist/css",
+    "minify:js": "esbuild js/**/*.js --outdir=dist/js --minify",
+    "minify:pages": "html-minifier-terser --input-dir pages --output-dir dist/pages --file-ext html --collapse-whitespace --remove-comments --remove-optional-tags --minify-css true --minify-js true",
+    "build": "npm run copy:assets && npm run optimize:imgs && npm run build:static && npm run minify:html && npm run minify:css && npm run minify:js && npm run minify:pages",
+    "watch:assets": "chokidar \"imgs/**/*\" \"fonts/**/*\" \"robots.txt\" \"sitemap.xml\" \"yandex_883883acb18ad896.html\" -c \"npm run copy:assets\" --initial",
+    "watch:static": "chokidar \"templates/**/*.hbs\" \"js/data.json\" -c \"npm run build:static\" --initial",
+    "watch:css": "chokidar \"css/**/*.css\" -c \"npm run minify:css\" --initial",
+    "watch:js": "chokidar \"js/**/*.js\" -c \"npm run minify:js\"  --initial",
+    "watch:pages": "chokidar \"pages/**/*.html\" -c \"npm run minify:pages\" --initial",
+    "serve": "browser-sync start --server dist --files \"dist/**/*\" --no-notify --no-ui",
+    "dev": "concurrently -k -n assets,static,css,js,pages,serve \"npm:watch:assets\" \"npm:watch:static\" \"npm:watch:css\" \"npm:watch:js\" \"npm:watch:pages\" \"npm:serve\""
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "chokidar-cli": "^3.0.0",
+    "concurrently": "^9.1.2",
+    "cssnano": "^7.0.7",
+    "esbuild": "^0.25.5",
+    "handlebars": "^4.7.7",
+    "handlebars-cli": "^0.1.2",
+    "html-minifier-terser": "^7.2.0",
+    "imagemin-cli": "^8.0.0",
+    "postcss-cli": "^11.0.1"
+  }
+}

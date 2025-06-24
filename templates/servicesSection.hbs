@@ -1,0 +1,21 @@
+<section id="services">
+  {{> sectionHeader title="Услуги"}}
+
+  <div class="wrapper">
+    <div class="services-grid">
+      {{#each services}}
+        <div class="service">
+          <div class="container has-transition">
+            <div class="service-head">
+              <div class="number">{{number}}</div>
+              <div class="title">{{title}}</div>
+            </div>
+            <div class="service-body">
+              <p>{{description}}</p>
+            </div>
+          </div>
+        </div>
+      {{/each}}
+    </div>
+  </div>
+</section>

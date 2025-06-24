@@ -1,0 +1,53 @@
+<section id="textile">
+  {{> sectionHeader title="Текстиль"}}
+
+  <div class="wrapper">
+    <div class="textile-title textile-intro">
+      <div class="container has-transition">
+        <p>Представляю вашему вниманию уникальные текстильные изделия, созданные по моему оригинальному проекту</p>
+      </div>
+    </div>
+
+    <div class="catalog">
+      {{#each products}}
+        <div class="product-card">
+          <div class="container has-transition">
+
+            <div class="product-description">
+              <div class="title">{{title}}</div>
+              <div class="properties">{{properties}}</div>
+              <div class="details">{{{details}}}</div>
+            </div>
+
+            <div class="product-img">
+              <div class="availability">{{availability}}</div>
+              {{> pictureBlock
+                path="/imgs/textile/"
+                base=img.base
+                avif1="495"
+                avif2="990"
+                sizes=""
+                params="class=\"has-transition\""
+                alt=img.alt
+              }}
+            </div>
+
+          </div>
+        </div>
+      {{/each}}
+    </div>
+
+    <div class="textile-title video-intro">
+      <div class="container has-transition">
+        <p>За обновлениями коллекции вы можете следить в моем <a class="link" href="https://vkvideo.ru/@ktexdesign" target="_blank" rel="noopener noreferrer">VK сообществе</a></p>
+      </div>
+    </div>
+
+    <div class="video">
+      <div class="container">
+        {{{videoEmbed}}}
+      </div>
+    </div>
+
+  </div>
+</section>

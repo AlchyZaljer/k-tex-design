@@ -1,0 +1,59 @@
+<section id="contacts">
+  <div class="scrollable-header">
+    <p>Оставьте заявку</p>
+  </div>
+  <div class="wrapper">
+    <div class="app-form">
+      <div class="description">
+        <p class="has-transition">Оставьте ваши контактные данные и краткую информацию о вашем запросе, и я свяжусь с вами в ближайшее время.</p>
+      </div>
+    </div>
+
+    <div class="btn-container app-form-btn">
+      <a href={{appForm}} role="button" class="btn">
+        Заполнить форму
+      </a>
+    </div>
+  </div>
+
+  {{> sectionHeader title="Контакты"}}
+  
+  <div class="contacts-field">
+    <div class="contact-data">
+      <div class="container has-transition">
+        <!-- Телефон -->
+        <div class="phone">
+          <div class="title"><p>Телефон/Whatsapp:</p></div>
+          <div class="number">
+            <a href="tel:{{phone.href}}">{{phone.text}}</a>
+          </div>
+        </div>
+
+        <!-- Социальные сети и email -->
+        <div class="socials">
+          {{#each socials}}
+            <div class="social-icon {{type}}">
+              <img src="{{icon}}" alt="{{type}}">
+              <a href="{{href}}" target="_blank" rel="noopener noreferrer">{{text}}</a>
+            </div>
+          {{/each}}
+        </div>
+
+        <!-- Адрес -->
+        <div class="address">
+          <img src="{{address.icon}}" alt="address">
+          <div class="address-string">
+            <a href="{{address.href}}" target="_blank" rel="noopener noreferrer">{{address.text}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Карта -->
+    <div class="contact-map">
+      <div class="yandex-map">
+        {{{mapEmbed}}}
+      </div>
+    </div>
+  </div>
+</section>

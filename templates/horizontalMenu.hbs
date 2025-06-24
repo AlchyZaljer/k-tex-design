@@ -1,0 +1,20 @@
+<nav class="horizontalMenu">
+  <div class="menu-left">
+    <a class="title" data-scroll href="#head">
+      <img src="./imgs/png/KTD.png" alt="KTD" />
+    </a>
+  </div>
+  <div class="burger-menu">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+  <ul class="menu-right">
+    {{#each menu}}
+      <li>
+        <a class="underlined" data-scroll href="#{{id}}">{{label}}</a>
+      </li>
+    {{/each}}
+  </ul>
+</nav>

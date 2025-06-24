@@ -1,0 +1,38 @@
+<section id="about">
+  {{> sectionHeader title="О бюро"}}
+
+  <div class="wrapper">
+    <div class="about-table">
+      <div class="founder">
+        {{> pictureBlock
+          path="/imgs/about/"
+          base=founder.base
+          avif1="444"
+          avif2="888"
+          sizes=""
+          params=""
+          alt=founder.alt
+        }}
+      </div>
+      <div class="description">
+        <div class="container has-transition">
+          <p class="tagline">{{tagline}}</p>
+          {{#each description}}
+            <p>{{{this}}}</p>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+
+    <div class="features-table">
+      {{#each features}}
+        <div class="feature">
+          <div class="container">
+            <div class="value">{{value}}</div>
+            <div class="meaning">{{meaning}}</div>
+          </div>
+        </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
