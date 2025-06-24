@@ -1,6 +1,6 @@
 FROM node:lts-alpine
 
-ENV SHELL=/bin/sh 
+ENV SHELL=/bin/sh
 
 WORKDIR /app
 

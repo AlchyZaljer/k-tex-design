@@ -24,8 +24,6 @@
 
 - Копирует `imgs/`, `fonts/`, `robots.txt`, `sitemap.xml`, `yandex_883883acb18ad896.html` → `dist/`
 
-- Оптимизирует изображения (`jpg/png/svg/avif`)
-
 - Компилирует Handlebars → `dist/index.html`
 
 - Минифицирует HTML, CSS, JS и доп. страницы из `pages/`
