@@ -6,7 +6,7 @@
   "scripts": {
     "copy:assets": "node copy-assets.js",
     "build:static": "node build-static.js",
-    "optimize:imgs": "imagemin \"dist/imgs/**/*.{jpg,jpeg,png,svg,avif}\" --out-dir=dist/imgs",
+    "optimize:imgs": "imagemin \"dist/imgs/**/*.{jpg,jpeg,png,svg,avif,webp}\" --out-dir=dist/imgs",
     "minify:html": "html-minifier-terser dist/index.html -o dist/index.html --collapse-whitespace --remove-comments --remove-optional-tags --minify-css true --minify-js false",
     "minify:css": "postcss \"css/**/*.css\" --base css --dir dist/css",
     "minify:js": "esbuild js/**/*.js --outdir=dist/js --minify",

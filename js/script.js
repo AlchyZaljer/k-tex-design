@@ -1,7 +1,7 @@
 // Предзагрузка фонового изображения в шапке
 function initBgPreload() {
     const bgImg = new Image();
-    bgImg.src = '/imgs/head/background.jpg';
+    bgImg.src = '/imgs/head/background.webp';
     bgImg.onload = () => {
         document.getElementById('head').classList.add('loaded');
     };

@@ -28,46 +28,14 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <link rel="preload" fetchpriority="high" href="/imgs/head/ktexdesign.png" as="image" type="image/png">
+    <link rel="preload" href="/imgs/head/background.webp" as="image" type="image/webp">
+
     <link rel="preload" href="/fonts/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" href="/fonts/Montserrat-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 
-    <link rel="preload" as="image" href="/imgs/head/background.jpg">
-    <link rel="preload" as="image" href="/imgs/head/ktexdesign.png">
-
     <link rel="preconnect" href="https://vkvideo.ru" crossorigin>
     <link rel="preconnect" href="https://yandex.ru" crossorigin>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CXFK79SMV8"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-CXFK79SMV8');
-    </script>
-
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript">
-        (function (m, e, t, r, i, k, a) {
-            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
-            m[i].l = 1 * new Date();
-            for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
-            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
-        })
-            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-        ym(98352729, "init", {
-            clickmap: true,
-            trackLinks: true,
-            accurateTrackBounce: true,
-            webvisor: true
-        });
-    </script>
-    <noscript>
-        <div><img src="https://mc.yandex.ru/watch/98352729" style="position:absolute; left:-9999px;" alt="Yandex.Metrika counter" /></div>
-    </noscript>
-    <!-- /Yandex.Metrika counter -->
 </head>
 
 <body>
@@ -89,6 +57,40 @@
     </main>
 
     <script src="js/script.js" defer></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CXFK79SMV8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-CXFK79SMV8');
+    </script>
+
+    <!-- Yandex.Metrika counter -->
+    <script defer>
+        window.addEventListener('load', function() {
+            (function (m, e, t, r, i, k, a) {
+                m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+                m[i].l = 1 * new Date();
+                for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+                k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+            })
+                (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+            ym(98352729, "init", {
+                clickmap: true,
+                trackLinks: true,
+                accurateTrackBounce: true,
+                webvisor: true
+            });
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/98352729" style="position:absolute; left:-9999px;" alt="Yandex.Metrika counter" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
 </body>
 
 </html>

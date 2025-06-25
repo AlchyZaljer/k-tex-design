@@ -156,7 +156,7 @@
                 }
             }
         ],
-        "videoEmbed": "<iframe src=\"https://vkvideo.ru/video_ext.php?oid=-225174876&amp;id=456239036&amp;hd=2\" width=\"560\" height=\"315\" allow=\"encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;\" frameborder=\"0\"></iframe>"
+        "videoEmbed": "<iframe src=\"https://vkvideo.ru/video_ext.php?oid=-225174876&amp;id=456239036&amp;hd=2\" width=\"560\" height=\"315\" loading=\"lazy\" referrerpolicy=\"no-referrer\" allow=\"encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;\" frameborder=\"0\"></iframe>"
     },
     "portfolio": [
         {
@@ -323,7 +323,7 @@
             "href": "https://yandex.ru/maps/-/CDF84-5F",
             "text": "Московская Область, Одинцовский городской округ, деревня Бузаево, д. 73/1"
         },
-        "mapEmbed": "<iframe src=\"https://yandex.ru/map-widget/v1/?um=constructor%3A644f0de982f41199a44d9b228d8c85868bc261df7a8e8f42217e36d3775e0a7d&amp;source=constructor\" width=\"600\" height=\"400\" frameborder=\"0\" sandbox=\"allow-scripts allow-same-origin\"></iframe>"
+        "mapEmbed": "<iframe src=\"https://yandex.ru/map-widget/v1/?um=constructor%3A644f0de982f41199a44d9b228d8c85868bc261df7a8e8f42217e36d3775e0a7d&amp;source=constructor\" width=\"600\" height=\"400\" loading=\"lazy\" referrerpolicy=\"no-referrer\" frameborder=\"0\" sandbox=\"allow-scripts allow-same-origin\"></iframe>"
     },
     "footer": {
         "logo": {

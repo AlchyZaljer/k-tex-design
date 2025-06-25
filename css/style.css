@@ -115,6 +115,12 @@ img {
   transition: transform 0.3s ease-out;
 }
 
+picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Полоса прокрутки */
 /* Для WebKit-браузеров */
 ::-webkit-scrollbar {
@@ -266,7 +272,7 @@ img {
 }
 
 #head.loaded {
-  background-image: url("/imgs/head/background.jpg");
+  background-image: url("/imgs/head/background.webp");
 }
 
 #head .wrapper {
