@@ -669,7 +669,6 @@ picture {
 }
 
 .project {
-  width: 25vw;
   position: relative;
   display: inline-block;
   overflow: hidden;
@@ -679,6 +678,10 @@ picture {
 
 .gallery.loaded .project {
   opacity: 1;
+}
+
+.project picture {
+  height: 100%;
 }
 
 .project img {
@@ -700,11 +703,6 @@ picture {
 
 .project.horizontal:nth-child(2n) {
   width: calc(50vw - 8px);
-}
-
-.project.vertical:nth-child(4n) img,
-.project.vertical:nth-child(2n) img {
-  height: 100%;
 }
 
 .project-overlay {
